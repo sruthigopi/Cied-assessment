@@ -1,0 +1,113 @@
+ 
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card {
+    margin: 20px;
+    /* padding: 20px; */
+    width: 15%;
+    height: 150%;
+    display: grid;
+    grid-template-rows: 20px 50px 1fr 50px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s;
+    
+  }
+  
+  .card:hover {
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+    transform: scale(1.01);
+  }
+  
+ span{
+    background-color: white;
+    border-radius: 7px;
+    color: black;
+ }
+ 
+  /* CARD BACKGROUNDS */
+  
+  .card-1 {
+    background: blue;
+    color: white;
+  }
+  
+  .card-2 {
+   background-color: green;
+   color: white;
+  }
+  
+  
+  
+  /* RESPONSIVE */
+  
+  @media (max-width: 1600px) {
+    .cards {
+      justify-content: center;
+    }
+  }
+  h5{
+    margin: 20px;
+  }
+  .all{
+    margin: 20px;
+    padding-top: 20px;
+    width: fit-content;
+    
+  }
+  .all1{
+    border: 1px solid black;
+    border-radius: 25px;
+    padding-right: 10px;
+  }
+  img{
+    margin: 2px;
+  }
+  .all1 p{
+    margin: 3px;
+  }
+  .all1 a{
+    margin-left: 3px;
+  }
+  .all2{
+    border: 1px solid black;
+    background-color: rgb(241, 228, 228);
+    border-radius: 25px;
+  
+  }
+  .all2 .row  p{
+   padding-left: 10%;
+  }
+  button{
+    margin:7% ;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+    padding: 5%;
+    border-radius: 25px;
+  }
+  
+  a{
+    color: black;
+  }
+  .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+    background-color:rgb(117, 241, 155);
+  }
+  .vi{
+   visibility: hidden;
+  }
+  tr:hover .vi{
+    visibility: visible;
+  }
+  .wrapper{
+    margin: 10px;
+  }
+  .wrapper a{
+    text-decoration: none;
+    padding: 10px;
+  }
+ 
